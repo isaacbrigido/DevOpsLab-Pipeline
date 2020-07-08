@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - node
+- node
 sudo: false
 script:
-  - npm test
+- npm test
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU_KEY
-  app: devops-ultimate
+    secure: BjnPgfpjITSMa5S4dR28W1qhuRvwvQKRw+p6W8FmRplNBCUm858XjOWkl/0IZ7zHiuRl37QE5o7Z17+FMLORGzCQ7WTzx5SQ/yvbxpHy2Lvz12/tVeRFDMnfIn6FMqgIsfEptTzuDir5XdZ2xG0g2DoA9lUCKUVIiSyF8OErGtB9SqcSo7SPxqOAC96VyoNYF/nmLWhQRpvezjnn6l9mgJ8OervF4VOKZcgVqe9tVkWh0BsnYflZ5jxDNXjwH9bGECYmp1dYhOpOhzRb0PkU3oXOdliztCQxCWKBA2Vw7kNAAK3g+U19LsX15vIodMnUK0UoZXZYva3pVgm3XTiZpn24gA3JxwDWiK7n6KK9LBBHv9rGB0GjnRyAB5ojv1dgaWQcsJWI9DLmeoZia9WGw4eUcKOo6YwUJi4/hZcxgmO1Kc4ODhVGwf2GEQuWIuTKuoUEo0+h/pls+rzRQ1x+VujC5N3pY/n/77Hfq5yO/hYY0wZGA5M+Vo1+fA2t0N+OGsieFhKVJbyYVATe8vO7QFmvrRoC8bJ60T2+1c//9x3AOvJKN+t0bMiL2J2CSPZG1urG7LOgyCU+H1tvkATn0WWQSHl5z01Pp2k2vUUq8mImx1akwQF8P5cstx+Dc4wDit2AQeGsEf9y1Brj4JJenWFzg9A6IJxoG312AUKNQIU=
+  app: isaacdevops-pipeline
   edge: true
